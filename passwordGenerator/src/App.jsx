@@ -32,8 +32,8 @@ function App() {
     window.navigator.clipboard.writeText(password)
   }, [password])
   return (
-    <>
-      <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-800'>
+    <div className='bg-black min-h-screen flex '>
+      <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 h-48 bg-gray-800 relative top-20'>
         <h1 className='text-white text-center font-serif my-3'>
           Password Generator
         </h1>
@@ -89,7 +89,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
