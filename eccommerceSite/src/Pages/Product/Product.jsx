@@ -54,10 +54,7 @@ const Product = () => {
               </div>
               <div className='flex'>
                 <span className='price'>{product.price}</span>
-                <span
-                  className='cart'
-                  onClick={(product) => addToCart(product)}
-                >
+                <span className='cart' onClick={() => addToCart(product)}>
                   <img className='cartImg' src='/cart.svg' alt='cart' />
                 </span>
               </div>

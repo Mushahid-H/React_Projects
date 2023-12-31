@@ -50,7 +50,7 @@ const Products = () => {
                 <Item
                   key={product.id}
                   data={product}
-                  addTocart={(product) => addToCart(product)}
+                  addToCart={() => addToCart(product)}
                 />
               ))
             )}
